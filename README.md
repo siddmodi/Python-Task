@@ -3,4 +3,6 @@ Run a for loop on url_list and using beautifulsoop & requests module we scrap (P
 For loop returns a list of dictionaries with 4 key-value pairs.
 We append a list with these dictionaries and return URL not available if any url throws Error 404 error.
 We also calculated time taken by for loop to end using time module.
-At last we jsonify the list by json.dump() method
+At last we jsonify the list by json.dump() method.
+I also dump the data in mysql database, amazon as database name.
+Add 'Open in colab' button on top in case to directly open ipynb file in google colab.
